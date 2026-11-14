@@ -15,10 +15,10 @@ Portafolio digital desarrollado con **Angular** que funciona como catálogo de p
 | # | Proyecto | Repositorio | Demo |
 |---|----------|-------------|------|
 | 1 | Portafolio Digital | [Repo](https://github.com/angela-aponte/portafolio-angular) | [Ver](https://angela-aponte.github.io/portafolio-angular/) |
-| 2 | _Pendiente_ | | |
-| 3 | _Pendiente_ | | |
-| 4 | _Pendiente_ | | |
-| 5 | _Pendiente_ | | |
+| 2 | Mini Design System | [Repo](https://github.com/angela-aponte/design-system-angular) | [Ver](https://angela-aponte.github.io/design-system-angular/) |
+| 3 | Lista de tareas | [Repo](https://github.com/angela-aponte/lista-tareas-angular) | [Ver](https://angela-aponte.github.io/lista-tareas-angular/) |
+| 4 | Patrones de diseño | [Repo](https://github.com/angela-aponte/patrones-diseno-angular) | [Ver](https://angela-aponte.github.io/patrones-diseno-angular/) |
+| 5 | Tablero Kanban | [Repo](https://github.com/angela-aponte/kanban-angular) | [Ver](https://angela-aponte.github.io/kanban-angular/) |
 
 ## Tecnologías
 
