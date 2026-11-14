@@ -1,11 +1,10 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
+import { Perfil } from './perfil/perfil';
+import { Catalogo } from './catalogo/catalogo';
 
 @Component({
-  imports: [],
   selector: 'app-root',
-  styleUrl: './app.css',
+  imports: [Perfil, Catalogo],
   templateUrl: './app.html',
 })
-export class App {
-  protected readonly title = signal('portafolio-angular');
-}
+export class App {}

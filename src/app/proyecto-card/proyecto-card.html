@@ -1,0 +1,21 @@
+<article class="card">
+  <h3>{{ proyecto().nombre }}</h3>
+  <p>{{ proyecto().descripcion }}</p>
+
+  <div class="tags">
+    @for (t of proyecto().tecnologias; track t) {
+      <span class="tag">{{ t }}</span>
+    }
+  </div>
+
+  <ul>
+    @for (c of proyecto().caracteristicas; track c) {
+      <li>{{ c }}</li>
+    }
+  </ul>
+
+  <div class="links">
+    <a [href]="proyecto().repoUrl" target="_blank" rel="noopener">Repositorio</a>
+    <a [href]="proyecto().demoUrl" target="_blank" rel="noopener">Ver aplicación</a>
+  </div>
+</article>

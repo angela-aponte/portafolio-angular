@@ -1,0 +1,33 @@
+<header class="hero">
+  <p class="saludo">Hola, soy</p>
+  <h1>{{ perfil.nombre }}</h1>
+  <p class="titulo">{{ perfil.titulo }}</p>
+  <p class="presentacion">{{ perfil.presentacion }}</p>
+</header>
+
+<section class="bloque">
+  <h2>Habilidades</h2>
+  <ul class="lista">
+    @for (h of perfil.habilidades; track h) {
+      <li>{{ h }}</li>
+    }
+  </ul>
+</section>
+
+<section class="bloque">
+  <h2>Lenguajes de programación</h2>
+  <ul class="chips">
+    @for (l of perfil.lenguajes; track l) {
+      <li>{{ l }}</li>
+    }
+  </ul>
+</section>
+
+<section class="bloque">
+  <h2>Tecnologías</h2>
+  <ul class="chips">
+    @for (t of perfil.tecnologias; track t) {
+      <li>{{ t }}</li>
+    }
+  </ul>
+</section>

@@ -1,0 +1,8 @@
+<section>
+  <h2>Proyectos</h2>
+  <div class="grid">
+    @for (p of proyectos; track p.nombre) {
+      <app-proyecto-card [proyecto]="p" />
+    }
+  </div>
+</section>

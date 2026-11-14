@@ -1,0 +1,72 @@
+.hero {
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #1e3a8a, #6d28d9);
+  margin-bottom: 2.5rem;
+}
+
+.saludo {
+  margin: 0 0 0.25rem;
+  color: #bae6fd;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  color: #fff;
+}
+
+.titulo {
+  margin: 0.5rem 0 1rem;
+  font-size: 1.15rem;
+  color: #e0e7ff;
+}
+
+.presentacion {
+  max-width: 70ch;
+  margin: 0;
+  color: #e2e8f0;
+}
+
+.bloque {
+  margin-bottom: 2rem;
+}
+
+.bloque h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  padding-left: 0.75rem;
+  border-left: 4px solid var(--accent);
+}
+
+.lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.75rem;
+}
+
+.lista li {
+  background: var(--surface);
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--surface-2);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.chips li {
+  background: var(--surface);
+  color: var(--accent);
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--surface-2);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
